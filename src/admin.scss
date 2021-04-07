@@ -1,0 +1,49 @@
+.admin-page {
+	display: flex;
+}
+
+.top-panel {
+	display: flex;
+	padding: 20px;
+	background-color: #242222;
+	a {
+		color: #fff;
+		font-size: 30px;
+	}
+	button {
+		margin-left: auto;
+	}
+}
+
+.left-panel {
+	background-color: #242222;
+	height: 100vh;
+	width: 15%;
+	ul {
+		li {
+			margin-bottom: 30px;
+		}
+	}
+	a {
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
+.content {
+	width: 50%;
+	padding: 50px;
+}
+
+.word-cart {
+	width: 100%;
+	height: 300px;
+	margin: 20px auto;
+	padding: 30px 20px;
+	-webkit-box-shadow: -1px 3px 11px 3px rgba(0, 0, 0, 0.32);
+	-moz-box-shadow: -1px 3px 11px 3px rgba(0, 0, 0, 0.32);
+	box-shadow: -1px 3px 11px 3px rgba(0, 0, 0, 0.32);
+	textarea {
+		width: 100%;
+	}
+}
